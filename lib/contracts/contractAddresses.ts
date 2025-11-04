@@ -1,0 +1,20 @@
+// ROSCA-Guard Contract Addresses
+export const CONTRACT_ADDRESSES = {
+  // Ethereum Sepolia Testnet
+  SEPOLIA: {
+    ROSCA_FACTORY: '0x9F01d0beE74AC0aF15a390cF5bd54E28EF4BbBac',
+    ROSCA_ANALYTICS: '0x45Fdf95185922b91627F0B340AFA3DF0fED650E7',
+    MOCK_PYUSD: '0x1e4e7e50E176A66BBEFC61331898F5ffdE49DBd6',
+    CHAIN_ID: 11155111,
+  },
+  // Celo Alfajores Testnet
+  CELO_ALFAJORES: {
+    KYC_VERIFIER: '0xAE8d27497451A252815B86898CDAd029be1417e9',
+    CHAIN_ID: 44787,
+  }
+} as const;
+
+export const SELF_CONFIG_ID = '0x766466f264a44af31cd388cd05801bcc5dfff4980ee97503579db8b3d0742a7e';
+
+// Default network for ROSCA operations
+export const DEFAULT_NETWORK = 'SEPOLIA';
